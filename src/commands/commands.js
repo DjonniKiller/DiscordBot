@@ -1,4 +1,4 @@
-const userCommand = require('./src/users');
-const fuckyouCommand = require('./src/fuckyou');
+const { usersCommand } = require('./src/users');
+const { fuckyouCommand } = require('./src/fuckyou');
 
-module.exports.commands = [fuckyouCommand, userCommand];
+module.exports.commands = [fuckyouCommand, usersCommand];
