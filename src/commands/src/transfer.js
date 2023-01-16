@@ -14,5 +14,9 @@ module.exports = {
 				.setName('channel')
 				.setDescription('Канал')
 				.setRequired(true))
+		.addIntegerOption(option =>
+			option
+				.setName('repeats')
+				.setDescription('Количество перемещений'))
 		.toJSON()
 }
